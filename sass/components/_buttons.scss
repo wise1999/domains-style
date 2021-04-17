@@ -1,0 +1,31 @@
+.main-button {
+    background-color: $lighter;
+    color: #fff;
+    display: block;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 35px 15px 35px;
+    text-transform: uppercase;
+    width: max-content;
+
+    &:hover {
+        background-color: $darker;
+    }
+}
+
+.button-unavailable {
+    cursor: not-allowed !important;
+    background-color: #a3a3a3;
+    color: #fff;
+    display: block;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 35px 15px 35px;
+    text-transform: uppercase;
+}
